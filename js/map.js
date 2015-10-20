@@ -27,7 +27,7 @@ var drawMap = function() {
 // calling the customBuild function if the response is successful
 var getData = function() {
 	var arr = $.ajax({
-	    url:'../data/response.json',
+	    url:'data/response.json',
 	    type: "get",
 	    success:function() {
 	   		customBuild(arr.responseJSON);
