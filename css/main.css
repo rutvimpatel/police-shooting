@@ -1,4 +1,48 @@
-/* You'll probably want to add some styles here */
+/* Rutvi Patel
+	challenge 3
+	StyleSheet for the map assignment */
+
+h1 {
+	font-weight: bolder;
+}
+
 #container {
 	height:800px;
 }
+
+/*Sets style for the map*/
+#tiles { 
+	text-align: left;
+	height: 380px; 
+	width: 100%;
+}
+
+#content p {
+	color: gray;
+}
+
+#content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+#hit {
+	font-weight: bold;
+	color: blue;
+}
+
+#killed {
+	font-weight: bold;
+	color: red;
+}
+
+.title {
+	font-weight: bold;
+}
+
+
+
